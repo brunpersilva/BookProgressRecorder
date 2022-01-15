@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32002.185
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProgressRecorder.Domain", "BookProgressRecorder.Domain\BookProgressRecorder.Domain.csproj", "{21159E67-D14E-42D8-97C1-DA2D378E70B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookProgressRecorder.Domain", "BookProgressRecorder.Domain\BookProgressRecorder.Domain.csproj", "{21159E67-D14E-42D8-97C1-DA2D378E70B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProgressRecorder.Api", "BookProgressRecorder.Api\BookProgressRecorder.Api.csproj", "{EB580FA3-29A9-40C3-A156-617CEF0992CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{21159E67-D14E-42D8-97C1-DA2D378E70B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21159E67-D14E-42D8-97C1-DA2D378E70B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21159E67-D14E-42D8-97C1-DA2D378E70B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB580FA3-29A9-40C3-A156-617CEF0992CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB580FA3-29A9-40C3-A156-617CEF0992CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB580FA3-29A9-40C3-A156-617CEF0992CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB580FA3-29A9-40C3-A156-617CEF0992CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
