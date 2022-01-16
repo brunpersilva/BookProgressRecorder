@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BookProgressRecorder.Dependencies\BookProgressRecorder.Dependencies.csproj" />
     <ProjectReference Include="..\BookProgressRecorder.Domain\BookProgressRecorder.Domain.csproj" />
+    <ProjectReference Include="..\BookProgressRecorder.Infrasctructure\BookProgressRecorder.Infrasctructure.csproj" />
   </ItemGroup>
 
 </Project>
